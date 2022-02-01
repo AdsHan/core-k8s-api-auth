@@ -23,8 +23,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            andersonhansen/rotten-potatoes:latest
-            andersonhansen/rotten-potatoes:${{ github.run_number }}
+            andersonhansen/api-auth:latest
+            andersonhansen/api-auth:${{ github.run_number }}
   CD:
     needs: [CI]
     runs-on: ubuntu-latest
