@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F4AA6BE-959C-43C3-AA36-4A5CE0DFDA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTO.Auth.API", "src\RTO.Auth.API\RTO.Auth.API.csproj", "{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{62920109-0E15-44BA-A789-F48E643F2125}"
+	ProjectSection(SolutionItems) = preProject
+		k8s\deployment.yml = k8s\deployment.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{453147CA-2F1E-48E9-9EC0-7DDE5C4CEE2E} = {6F4AA6BE-959C-43C3-AA36-4A5CE0DFDA39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4E4550A-2602-4A99-98E9-1F21AAABABD4}
+	EndGlobalSection
+EndGlobal
